@@ -1,0 +1,12 @@
+{
+  "name": "parcial-ti-app",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para Parcial-TI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {}
+}
