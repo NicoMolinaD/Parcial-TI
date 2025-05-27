@@ -9,13 +9,11 @@
   },
   "author": "Tu Nombre",
   "license": "MIT",
-  "dependencies": {
-    "cross-spawn": "^7.0.5"
-  },
+  "dependencies": {},
   "resolutions": {
     "cross-spawn": "^7.0.5"
   },
   "devDependencies": {
-    "npm-force-resolutions": "0.0.10"
+    "npm-force-resolutions": "^0.0.10"
   }
 }
