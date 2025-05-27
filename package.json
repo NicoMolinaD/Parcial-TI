@@ -4,9 +4,16 @@
   "description": "Proyecto de prueba para Parcial-TI",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "Tu Nombre",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "npm-force-resolutions": "^0.0.10"
+  }
 }
