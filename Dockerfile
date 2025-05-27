@@ -16,5 +16,8 @@ COPY . .
 # Expone el puerto de la app
 EXPOSE 3000
 
+RUN npm install --ignore-scripts --force
+RUN rm -rf /root/.npm/_cacache
+
 # Comando por defecto
 CMD ["npm", "start"]
